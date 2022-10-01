@@ -504,8 +504,19 @@
                 </div>
 
                 <div class="accept">
-                    <input type="checkbox" id="accept" name="accept" required>
-                    <label for="accept">Погоджуюся з розсилкою та приймаю <a href="" class="accept-link">Умови договору</a></label>
+                    <input type="checkbox" id="accept" name="accept" class="visually-hidden" required>
+
+                    
+                    <label for="accept" class="label-chexbox">
+                        <div class="checkbox">
+                            <svg
+                             class="checkbox-icons"
+                             width="12px">
+                             <use href="./images/icons.svg#icon-tick"></use>
+                             </svg> 
+                         </div>  
+                         Погоджуюся з розсилкою та приймаю <a href="" class="accept-link">Умови договору</a></label>
+                        
                 </div>
 
                 <button class="form-button">Відправити</button>
